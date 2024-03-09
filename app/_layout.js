@@ -18,7 +18,7 @@ export default function Layout() {
 		}
 	}, [fontsLoaded]);
 
-	if (!fontsLoaded) return null;
+	if (!fontsLoaded) return;
 
 	return <Stack onLayout={onLayoutRootView} />;
 }
