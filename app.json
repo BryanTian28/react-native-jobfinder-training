@@ -8,6 +8,21 @@
       "expo-router"
     ],
     "name": "RN",
-    "slug": "RN"
+    "slug": "jseek",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a8bb8f10-d020-4a1b-a99e-9661bbae551b"
+      }
+    },
+    "owner": "bryantian28",
+    "android": {
+      "package": "com.bryantian28.jseek"
+    },
+    "ios": {
+      "bundleIdentifier": "com.bryantian28.jseek"
+    }
   }
 }
